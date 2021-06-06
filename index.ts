@@ -4,7 +4,7 @@ import EveryTime from './EveryTime';
 /**
  * Cron Time Class
  */
-class CronTime {
+export default class CronTime {
     /**
      * Every nth Time
      * @return {EveryTime}
@@ -331,5 +331,3 @@ class CronTime {
     }
 
 }
-
-export = CronTime;
