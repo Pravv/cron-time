@@ -10,7 +10,7 @@ type EveryTimeConfig = {
 /**
  * Every Time Class
  */
-class EveryTime {
+export default class EveryTime {
     public interval: TimeInterval = 1;
     public config: EveryTimeConfig = {}
 
@@ -108,5 +108,3 @@ class EveryTime {
 
 
 }
-
-export = EveryTime;
