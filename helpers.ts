@@ -15,7 +15,7 @@ const DaysDictionary: Record<string,number> = {
     saturday: 6,
 };
 
-export = {
+export default {
     /**
      * @param {number} position
      * @param {*} value
